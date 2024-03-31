@@ -1,0 +1,31 @@
+{
+	"configurations": [
+		{
+			"name": "Debug OutBoxProblema",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/OutBoxProblema/bin/Debug/net8.0/OutBoxProblema.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}/OutBoxProblema",
+			"console": "internalConsole",
+			"stopAtEntry": false
+		},
+    {
+			"name": "Debug OutBoxSolucao",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/OutBoxSolucao/bin/Debug/net8.0/OutBoxSolucao.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}/OutBoxSolucao",
+			"console": "internalConsole",
+			"stopAtEntry": false
+		},
+		{
+			"name": ".NET Core Attach",
+			"type": "coreclr",
+			"request": "attach"
+		}
+	]
+}
